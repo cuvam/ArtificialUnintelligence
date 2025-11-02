@@ -56,3 +56,6 @@ dkms.conf
 
 # Compiled test executables
 test_introsort
+heap_sort
+insertion_sort
+introsort
