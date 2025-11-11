@@ -1,0 +1,11 @@
+# Compiled binary
+zip_util
+
+# Test files and directories
+test_data/
+extracted/
+*.zip
+*.txt
+
+# Backup files
+*.backup
