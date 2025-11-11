@@ -11,23 +11,24 @@ A command-line zip utility written in C that supports zipping, unzipping, and re
 ## Requirements
 
 - GCC compiler
-- libzip library
+- `zip` command-line utility (usually pre-installed on most Linux systems)
+- `unzip` command-line utility (usually pre-installed on most Linux systems)
 
-### Installing libzip
+### Installing zip/unzip (if needed)
 
 **Ubuntu/Debian:**
 ```bash
-sudo apt-get install libzip-dev
+sudo apt-get install zip unzip
 ```
 
 **macOS:**
 ```bash
-brew install libzip
+brew install zip unzip
 ```
 
 **Fedora/RHEL:**
 ```bash
-sudo dnf install libzip-devel
+sudo dnf install zip unzip
 ```
 
 ## Compilation
