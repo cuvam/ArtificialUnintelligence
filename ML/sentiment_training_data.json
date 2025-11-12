@@ -1,0 +1,84 @@
+{
+  "training_data": [
+    {
+      "text": "This is a great product I love it",
+      "label": 1.0
+    },
+    {
+      "text": "Excellent quality very happy with purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Amazing experience wonderful service",
+      "label": 1.0
+    },
+    {
+      "text": "Best thing ever so good",
+      "label": 1.0
+    },
+    {
+      "text": "Fantastic quality I enjoy using it",
+      "label": 1.0
+    },
+    {
+      "text": "Beautiful design and perfect functionality",
+      "label": 1.0
+    },
+    {
+      "text": "Great value awesome product",
+      "label": 1.0
+    },
+    {
+      "text": "Love this excellent choice",
+      "label": 1.0
+    },
+    {
+      "text": "Wonderful experience very nice",
+      "label": 1.0
+    },
+    {
+      "text": "Happy with this amazing product",
+      "label": 1.0
+    },
+    {
+      "text": "This is terrible I hate it",
+      "label": 0.0
+    },
+    {
+      "text": "Awful quality very disappointing",
+      "label": 0.0
+    },
+    {
+      "text": "Horrible experience worst ever",
+      "label": 0.0
+    },
+    {
+      "text": "Bad product poor design",
+      "label": 0.0
+    },
+    {
+      "text": "Useless and boring waste of money",
+      "label": 0.0
+    },
+    {
+      "text": "Disgusting quality I dislike it",
+      "label": 0.0
+    },
+    {
+      "text": "Worst purchase ever so bad",
+      "label": 0.0
+    },
+    {
+      "text": "Terrible experience very sad",
+      "label": 0.0
+    },
+    {
+      "text": "Awful service hate this",
+      "label": 0.0
+    },
+    {
+      "text": "Poor quality disappointing product",
+      "label": 0.0
+    }
+  ]
+}

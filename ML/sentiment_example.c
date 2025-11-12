@@ -4,6 +4,7 @@
 #include <ctype.h>
 #include <time.h>
 #include "neural_network.h"
+#include "json_parser.h"
 
 #define MAX_VOCAB_SIZE 100
 #define MAX_TEXT_LENGTH 1000
@@ -124,41 +125,18 @@ int main() {
     printf("Vocabulary size: %d words\n", vocab->size);
     printf("Positive words (0-14), Negative words (15-29)\n\n");
 
-    // Training data: text samples with sentiment labels
-    // Label: 1.0 = positive, 0.0 = negative
+    // Load training data from JSON file
+    printf("Loading training data from JSON file...\n");
+    TrainingDataset* dataset = load_training_data("sentiment_training_data.json");
 
-    const char* training_texts[] = {
-        // Positive examples
-        "This is a great product I love it",
-        "Excellent quality very happy with purchase",
-        "Amazing experience wonderful service",
-        "Best thing ever so good",
-        "Fantastic quality I enjoy using it",
-        "Beautiful design and perfect functionality",
-        "Great value awesome product",
-        "Love this excellent choice",
-        "Wonderful experience very nice",
-        "Happy with this amazing product",
+    if (!dataset) {
+        fprintf(stderr, "Error: Failed to load training data\n");
+        free_vocabulary(vocab);
+        return 1;
+    }
 
-        // Negative examples
-        "This is terrible I hate it",
-        "Awful quality very disappointing",
-        "Horrible experience worst ever",
-        "Bad product poor design",
-        "Useless and boring waste of money",
-        "Disgusting quality I dislike it",
-        "Worst purchase ever so bad",
-        "Terrible experience very sad",
-        "Awful service hate this",
-        "Poor quality disappointing product"
-    };
-
-    double training_labels[] = {
-        1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,  // Positive
-        0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0   // Negative
-    };
-
-    int num_samples = 20;
+    int num_samples = dataset->count;
+    printf("Loaded %d training examples\n\n", num_samples);
 
     // Convert training data to feature matrices
     Matrix** inputs = (Matrix**)malloc(num_samples * sizeof(Matrix*));
@@ -166,9 +144,9 @@ int main() {
 
     printf("Converting training data to features...\n");
     for (int i = 0; i < num_samples; i++) {
-        inputs[i] = text_to_features(training_texts[i], vocab);
+        inputs[i] = text_to_features(dataset->examples[i].text, vocab);
         targets[i] = matrix_create(1, 1);
-        matrix_set(targets[i], 0, 0, training_labels[i]);
+        matrix_set(targets[i], 0, 0, dataset->examples[i].label);
     }
 
     // Create neural network
@@ -193,14 +171,14 @@ int main() {
     for (int i = 0; i < num_samples; i++) {
         Matrix* output = nn_forward(nn, inputs[i]);
         double prediction = matrix_get(output, 0, 0);
-        double actual = training_labels[i];
+        double actual = dataset->examples[i].label;
         int predicted_class = prediction >= 0.5 ? 1 : 0;
         int actual_class = actual >= 0.5 ? 1 : 0;
 
         if (predicted_class == actual_class) correct++;
 
         if (i % 5 == 0) {
-            printf("Sample %d: \"%s\"\n", i, training_texts[i]);
+            printf("Sample %d: \"%s\"\n", i, dataset->examples[i].text);
             printf("  Prediction: %.4f (%s), Actual: %.0f (%s)\n\n",
                    prediction,
                    predicted_class ? "POSITIVE" : "NEGATIVE",
@@ -270,6 +248,7 @@ int main() {
     }
     free(inputs);
     free(targets);
+    free_training_dataset(dataset);
     free_vocabulary(vocab);
     nn_free(nn);
 
