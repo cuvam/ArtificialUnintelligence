@@ -56,3 +56,9 @@ dkms.conf
 
 # Compiled test executables
 test_introsort
+
+# ML example executables
+ML/xor_example
+ML/regression_example
+ML/sentiment_example
+ML/adder_example
