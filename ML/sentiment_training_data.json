@@ -1,0 +1,1124 @@
+{
+  "training_data": [
+    {
+      "text": "This is a great product I love it",
+      "label": 1.0
+    },
+    {
+      "text": "Excellent quality very happy with purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Amazing experience wonderful service",
+      "label": 1.0
+    },
+    {
+      "text": "Best thing ever so good",
+      "label": 1.0
+    },
+    {
+      "text": "Fantastic quality I enjoy using it",
+      "label": 1.0
+    },
+    {
+      "text": "Beautiful design and perfect functionality",
+      "label": 1.0
+    },
+    {
+      "text": "Great value awesome product",
+      "label": 1.0
+    },
+    {
+      "text": "Love this excellent choice",
+      "label": 1.0
+    },
+    {
+      "text": "Wonderful experience very nice",
+      "label": 1.0
+    },
+    {
+      "text": "Happy with this amazing product",
+      "label": 1.0
+    },
+    {
+      "text": "This is terrible I hate it",
+      "label": 0.0
+    },
+    {
+      "text": "Awful quality very disappointing",
+      "label": 0.0
+    },
+    {
+      "text": "Horrible experience worst ever",
+      "label": 0.0
+    },
+    {
+      "text": "Bad product poor design",
+      "label": 0.0
+    },
+    {
+      "text": "Useless and boring waste of money",
+      "label": 0.0
+    },
+    {
+      "text": "Disgusting quality I dislike it",
+      "label": 0.0
+    },
+    {
+      "text": "Worst purchase ever so bad",
+      "label": 0.0
+    },
+    {
+      "text": "Terrible experience very sad",
+      "label": 0.0
+    },
+    {
+      "text": "Awful service hate this",
+      "label": 0.0
+    },
+    {
+      "text": "Poor quality disappointing product",
+      "label": 0.0
+    },
+    {
+      "text": "Absolutely love this product",
+      "label": 1.0
+    },
+    {
+      "text": "Best purchase I have made",
+      "label": 1.0
+    },
+    {
+      "text": "Great product highly recommended",
+      "label": 1.0
+    },
+    {
+      "text": "Wonderful quality very happy",
+      "label": 1.0
+    },
+    {
+      "text": "Perfect exactly what I wanted",
+      "label": 1.0
+    },
+    {
+      "text": "Excellent service and great product",
+      "label": 1.0
+    },
+    {
+      "text": "Amazing quality love it",
+      "label": 1.0
+    },
+    {
+      "text": "Fantastic experience very satisfied",
+      "label": 1.0
+    },
+    {
+      "text": "Beautiful and well made",
+      "label": 1.0
+    },
+    {
+      "text": "Good value for money happy customer",
+      "label": 1.0
+    },
+    {
+      "text": "Completely useless terrible product",
+      "label": 0.0
+    },
+    {
+      "text": "Horrible quality very disappointed",
+      "label": 0.0
+    },
+    {
+      "text": "Worst thing I ever bought",
+      "label": 0.0
+    },
+    {
+      "text": "Bad experience would not recommend",
+      "label": 0.0
+    },
+    {
+      "text": "Disappointing and poor quality",
+      "label": 0.0
+    },
+    {
+      "text": "Awful product hate it",
+      "label": 0.0
+    },
+    {
+      "text": "Terrible design very ugly",
+      "label": 0.0
+    },
+    {
+      "text": "Disgusting and useless",
+      "label": 0.0
+    },
+    {
+      "text": "Poor service very angry",
+      "label": 0.0
+    },
+    {
+      "text": "Boring and bad quality",
+      "label": 0.0
+    },
+    {
+      "text": "I enjoy this great product",
+      "label": 1.0
+    },
+    {
+      "text": "Nice quality very pleased",
+      "label": 1.0
+    },
+    {
+      "text": "Excellent choice happy with it",
+      "label": 1.0
+    },
+    {
+      "text": "Wonderful purchase love it",
+      "label": 1.0
+    },
+    {
+      "text": "Great experience highly satisfied",
+      "label": 1.0
+    },
+    {
+      "text": "Perfect product amazing quality",
+      "label": 1.0
+    },
+    {
+      "text": "Beautiful item very happy",
+      "label": 1.0
+    },
+    {
+      "text": "Fantastic quality excellent service",
+      "label": 1.0
+    },
+    {
+      "text": "Best quality awesome product",
+      "label": 1.0
+    },
+    {
+      "text": "Good product nice design",
+      "label": 1.0
+    },
+    {
+      "text": "Hate this terrible quality",
+      "label": 0.0
+    },
+    {
+      "text": "Disappointing purchase poor value",
+      "label": 0.0
+    },
+    {
+      "text": "Worst quality very sad",
+      "label": 0.0
+    },
+    {
+      "text": "Bad design ugly product",
+      "label": 0.0
+    },
+    {
+      "text": "Awful experience horrible service",
+      "label": 0.0
+    },
+    {
+      "text": "Useless product waste of time",
+      "label": 0.0
+    },
+    {
+      "text": "Terrible and disappointing",
+      "label": 0.0
+    },
+    {
+      "text": "Disgusting quality very poor",
+      "label": 0.0
+    },
+    {
+      "text": "Boring product dislike it",
+      "label": 0.0
+    },
+    {
+      "text": "Poor design angry customer",
+      "label": 0.0
+    },
+    {
+      "text": "This product is amazing and wonderful",
+      "label": 1.0
+    },
+    {
+      "text": "Love the excellent quality",
+      "label": 1.0
+    },
+    {
+      "text": "Great purchase very happy customer",
+      "label": 1.0
+    },
+    {
+      "text": "Perfect quality beautiful design",
+      "label": 1.0
+    },
+    {
+      "text": "Fantastic product highly recommend",
+      "label": 1.0
+    },
+    {
+      "text": "Best experience awesome service",
+      "label": 1.0
+    },
+    {
+      "text": "Wonderful quality love using it",
+      "label": 1.0
+    },
+    {
+      "text": "Excellent product great value",
+      "label": 1.0
+    },
+    {
+      "text": "Amazing experience happy with purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Good quality nice product",
+      "label": 1.0
+    },
+    {
+      "text": "Hate everything about this terrible product",
+      "label": 0.0
+    },
+    {
+      "text": "Worst experience disappointing quality",
+      "label": 0.0
+    },
+    {
+      "text": "Bad purchase poor service",
+      "label": 0.0
+    },
+    {
+      "text": "Awful design ugly and useless",
+      "label": 0.0
+    },
+    {
+      "text": "Horrible quality very angry",
+      "label": 0.0
+    },
+    {
+      "text": "Terrible product sad customer",
+      "label": 0.0
+    },
+    {
+      "text": "Disgusting and boring waste",
+      "label": 0.0
+    },
+    {
+      "text": "Poor quality dislike strongly",
+      "label": 0.0
+    },
+    {
+      "text": "Disappointing experience bad product",
+      "label": 0.0
+    },
+    {
+      "text": "Useless and awful quality",
+      "label": 0.0
+    },
+    {
+      "text": "Absolutely amazing I love it",
+      "label": 1.0
+    },
+    {
+      "text": "Best product ever great quality",
+      "label": 1.0
+    },
+    {
+      "text": "Excellent purchase wonderful experience",
+      "label": 1.0
+    },
+    {
+      "text": "Perfect item happy customer",
+      "label": 1.0
+    },
+    {
+      "text": "Fantastic quality beautiful design",
+      "label": 1.0
+    },
+    {
+      "text": "Great service awesome product",
+      "label": 1.0
+    },
+    {
+      "text": "Wonderful experience enjoy using",
+      "label": 1.0
+    },
+    {
+      "text": "Amazing quality nice purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Good product love it",
+      "label": 1.0
+    },
+    {
+      "text": "Beautiful and excellent quality",
+      "label": 1.0
+    },
+    {
+      "text": "Absolutely terrible hate it",
+      "label": 0.0
+    },
+    {
+      "text": "Worst quality disappointing product",
+      "label": 0.0
+    },
+    {
+      "text": "Horrible experience bad service",
+      "label": 0.0
+    },
+    {
+      "text": "Awful product poor design",
+      "label": 0.0
+    },
+    {
+      "text": "Disgusting quality angry customer",
+      "label": 0.0
+    },
+    {
+      "text": "Terrible purchase sad experience",
+      "label": 0.0
+    },
+    {
+      "text": "Useless product boring quality",
+      "label": 0.0
+    },
+    {
+      "text": "Bad quality ugly design",
+      "label": 0.0
+    },
+    {
+      "text": "Poor product dislike it",
+      "label": 0.0
+    },
+    {
+      "text": "Disappointing and useless waste",
+      "label": 0.0
+    },
+    {
+      "text": "This is not bad at all",
+      "label": 1.0
+    },
+    {
+      "text": "Not terrible actually quite good",
+      "label": 1.0
+    },
+    {
+      "text": "Not awful surprisingly nice",
+      "label": 1.0
+    },
+    {
+      "text": "Not disappointing very happy",
+      "label": 1.0
+    },
+    {
+      "text": "Not ugly actually beautiful",
+      "label": 1.0
+    },
+    {
+      "text": "Not boring quite enjoy it",
+      "label": 1.0
+    },
+    {
+      "text": "Not poor quality excellent actually",
+      "label": 1.0
+    },
+    {
+      "text": "Not useless very good product",
+      "label": 1.0
+    },
+    {
+      "text": "Not sad happy with purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Not the worst actually great",
+      "label": 1.0
+    },
+    {
+      "text": "Not great but terrible",
+      "label": 0.0
+    },
+    {
+      "text": "Not good very disappointing",
+      "label": 0.0
+    },
+    {
+      "text": "Not happy quite sad",
+      "label": 0.0
+    },
+    {
+      "text": "Not wonderful actually awful",
+      "label": 0.0
+    },
+    {
+      "text": "Not excellent very poor",
+      "label": 0.0
+    },
+    {
+      "text": "Not amazing rather boring",
+      "label": 0.0
+    },
+    {
+      "text": "Not beautiful quite ugly",
+      "label": 0.0
+    },
+    {
+      "text": "Not fantastic very bad",
+      "label": 0.0
+    },
+    {
+      "text": "Not perfect rather disappointing",
+      "label": 0.0
+    },
+    {
+      "text": "Not the best actually worst",
+      "label": 0.0
+    },
+    {
+      "text": "Could be worse but still good",
+      "label": 1.0
+    },
+    {
+      "text": "Better than expected very happy",
+      "label": 1.0
+    },
+    {
+      "text": "Exceeded expectations love it",
+      "label": 1.0
+    },
+    {
+      "text": "Much better than anticipated great",
+      "label": 1.0
+    },
+    {
+      "text": "Pleasantly surprised wonderful product",
+      "label": 1.0
+    },
+    {
+      "text": "Better quality than expected excellent",
+      "label": 1.0
+    },
+    {
+      "text": "Surprisingly good happy customer",
+      "label": 1.0
+    },
+    {
+      "text": "Turned out great despite concerns",
+      "label": 1.0
+    },
+    {
+      "text": "Initial doubts gone love it",
+      "label": 1.0
+    },
+    {
+      "text": "Skeptical at first but amazing",
+      "label": 1.0
+    },
+    {
+      "text": "Could be better very disappointing",
+      "label": 0.0
+    },
+    {
+      "text": "Worse than expected terrible",
+      "label": 0.0
+    },
+    {
+      "text": "Did not meet expectations poor",
+      "label": 0.0
+    },
+    {
+      "text": "Much worse than anticipated bad",
+      "label": 0.0
+    },
+    {
+      "text": "Disappointingly bad quality awful",
+      "label": 0.0
+    },
+    {
+      "text": "Lower quality than expected poor",
+      "label": 0.0
+    },
+    {
+      "text": "Surprisingly bad hate it",
+      "label": 0.0
+    },
+    {
+      "text": "Turned out terrible despite hopes",
+      "label": 0.0
+    },
+    {
+      "text": "Had high hopes now disappointed",
+      "label": 0.0
+    },
+    {
+      "text": "Expected better very sad",
+      "label": 0.0
+    },
+    {
+      "text": "Really enjoy this great product",
+      "label": 1.0
+    },
+    {
+      "text": "Extremely happy excellent purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Incredibly satisfied wonderful quality",
+      "label": 1.0
+    },
+    {
+      "text": "Very pleased amazing product",
+      "label": 1.0
+    },
+    {
+      "text": "Highly satisfied best purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Totally love it perfect",
+      "label": 1.0
+    },
+    {
+      "text": "Completely satisfied great quality",
+      "label": 1.0
+    },
+    {
+      "text": "Thoroughly impressed excellent",
+      "label": 1.0
+    },
+    {
+      "text": "Genuinely happy wonderful experience",
+      "label": 1.0
+    },
+    {
+      "text": "Truly amazing fantastic product",
+      "label": 1.0
+    },
+    {
+      "text": "Really hate this terrible product",
+      "label": 0.0
+    },
+    {
+      "text": "Extremely disappointed awful quality",
+      "label": 0.0
+    },
+    {
+      "text": "Incredibly dissatisfied horrible",
+      "label": 0.0
+    },
+    {
+      "text": "Very unhappy bad purchase",
+      "label": 0.0
+    },
+    {
+      "text": "Highly disappointed worst quality",
+      "label": 0.0
+    },
+    {
+      "text": "Totally hate it poor product",
+      "label": 0.0
+    },
+    {
+      "text": "Completely dissatisfied terrible",
+      "label": 0.0
+    },
+    {
+      "text": "Thoroughly unimpressed disappointing",
+      "label": 0.0
+    },
+    {
+      "text": "Genuinely sad awful experience",
+      "label": 0.0
+    },
+    {
+      "text": "Truly terrible disgusting product",
+      "label": 0.0
+    },
+    {
+      "text": "Love the wonderful quality and design",
+      "label": 1.0
+    },
+    {
+      "text": "Great product excellent value for money",
+      "label": 1.0
+    },
+    {
+      "text": "Amazing experience from start to finish",
+      "label": 1.0
+    },
+    {
+      "text": "Perfect in every way love it",
+      "label": 1.0
+    },
+    {
+      "text": "Fantastic product highly recommended to all",
+      "label": 1.0
+    },
+    {
+      "text": "Best quality product I have seen",
+      "label": 1.0
+    },
+    {
+      "text": "Beautiful design and excellent functionality",
+      "label": 1.0
+    },
+    {
+      "text": "Wonderful service and great product quality",
+      "label": 1.0
+    },
+    {
+      "text": "Excellent purchase very happy customer indeed",
+      "label": 1.0
+    },
+    {
+      "text": "Good quality nice design happy overall",
+      "label": 1.0
+    },
+    {
+      "text": "Hate the terrible quality and design",
+      "label": 0.0
+    },
+    {
+      "text": "Bad product poor value for money",
+      "label": 0.0
+    },
+    {
+      "text": "Awful experience from start to finish",
+      "label": 0.0
+    },
+    {
+      "text": "Horrible in every way hate it",
+      "label": 0.0
+    },
+    {
+      "text": "Terrible product would not recommend to anyone",
+      "label": 0.0
+    },
+    {
+      "text": "Worst quality product I have seen",
+      "label": 0.0
+    },
+    {
+      "text": "Ugly design and poor functionality",
+      "label": 0.0
+    },
+    {
+      "text": "Disappointing service and bad product quality",
+      "label": 0.0
+    },
+    {
+      "text": "Poor purchase very sad customer indeed",
+      "label": 0.0
+    },
+    {
+      "text": "Bad quality ugly design angry overall",
+      "label": 0.0
+    },
+    {
+      "text": "This product works great love it",
+      "label": 1.0
+    },
+    {
+      "text": "Functions perfectly wonderful purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Does exactly what needed excellent",
+      "label": 1.0
+    },
+    {
+      "text": "Performs brilliantly amazing quality",
+      "label": 1.0
+    },
+    {
+      "text": "Works flawlessly perfect product",
+      "label": 1.0
+    },
+    {
+      "text": "Operates smoothly great experience",
+      "label": 1.0
+    },
+    {
+      "text": "Runs beautifully happy customer",
+      "label": 1.0
+    },
+    {
+      "text": "Executes perfectly fantastic quality",
+      "label": 1.0
+    },
+    {
+      "text": "Functions wonderfully excellent purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Performs excellently best product",
+      "label": 1.0
+    },
+    {
+      "text": "This product does not work hate it",
+      "label": 0.0
+    },
+    {
+      "text": "Functions poorly terrible purchase",
+      "label": 0.0
+    },
+    {
+      "text": "Does not do what needed awful",
+      "label": 0.0
+    },
+    {
+      "text": "Performs badly horrible quality",
+      "label": 0.0
+    },
+    {
+      "text": "Broken and useless poor product",
+      "label": 0.0
+    },
+    {
+      "text": "Operates terribly bad experience",
+      "label": 0.0
+    },
+    {
+      "text": "Runs poorly disappointing customer",
+      "label": 0.0
+    },
+    {
+      "text": "Executes badly terrible quality",
+      "label": 0.0
+    },
+    {
+      "text": "Functions poorly awful purchase",
+      "label": 0.0
+    },
+    {
+      "text": "Performs terribly worst product",
+      "label": 0.0
+    },
+    {
+      "text": "Worth every penny great investment",
+      "label": 1.0
+    },
+    {
+      "text": "Money well spent excellent value",
+      "label": 1.0
+    },
+    {
+      "text": "Best investment ever love it",
+      "label": 1.0
+    },
+    {
+      "text": "Great price wonderful quality",
+      "label": 1.0
+    },
+    {
+      "text": "Excellent deal happy purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Good value perfect product",
+      "label": 1.0
+    },
+    {
+      "text": "Fair price amazing quality",
+      "label": 1.0
+    },
+    {
+      "text": "Reasonable cost great product",
+      "label": 1.0
+    },
+    {
+      "text": "Worth the money excellent purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Good investment fantastic quality",
+      "label": 1.0
+    },
+    {
+      "text": "Waste of money terrible investment",
+      "label": 0.0
+    },
+    {
+      "text": "Money poorly spent awful value",
+      "label": 0.0
+    },
+    {
+      "text": "Worst investment ever hate it",
+      "label": 0.0
+    },
+    {
+      "text": "Bad price poor quality",
+      "label": 0.0
+    },
+    {
+      "text": "Terrible deal sad purchase",
+      "label": 0.0
+    },
+    {
+      "text": "Poor value disappointing product",
+      "label": 0.0
+    },
+    {
+      "text": "Overpriced bad quality",
+      "label": 0.0
+    },
+    {
+      "text": "Expensive and poor product",
+      "label": 0.0
+    },
+    {
+      "text": "Not worth the money terrible purchase",
+      "label": 0.0
+    },
+    {
+      "text": "Bad investment horrible quality",
+      "label": 0.0
+    },
+    {
+      "text": "Highly recommend this great product",
+      "label": 1.0
+    },
+    {
+      "text": "Would buy again excellent quality",
+      "label": 1.0
+    },
+    {
+      "text": "Tell everyone about this amazing product",
+      "label": 1.0
+    },
+    {
+      "text": "Recommend to friends wonderful purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Will purchase again love it",
+      "label": 1.0
+    },
+    {
+      "text": "Suggest to others perfect product",
+      "label": 1.0
+    },
+    {
+      "text": "Endorse completely fantastic quality",
+      "label": 1.0
+    },
+    {
+      "text": "Advocate strongly best product",
+      "label": 1.0
+    },
+    {
+      "text": "Promote happily excellent experience",
+      "label": 1.0
+    },
+    {
+      "text": "Recommend highly great purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Do not recommend terrible product",
+      "label": 0.0
+    },
+    {
+      "text": "Would not buy again awful quality",
+      "label": 0.0
+    },
+    {
+      "text": "Warn everyone about this horrible product",
+      "label": 0.0
+    },
+    {
+      "text": "Tell friends to avoid poor purchase",
+      "label": 0.0
+    },
+    {
+      "text": "Will not purchase again hate it",
+      "label": 0.0
+    },
+    {
+      "text": "Suggest avoiding bad product",
+      "label": 0.0
+    },
+    {
+      "text": "Cannot endorse disappointing quality",
+      "label": 0.0
+    },
+    {
+      "text": "Advise against worst product",
+      "label": 0.0
+    },
+    {
+      "text": "Discourage strongly terrible experience",
+      "label": 0.0
+    },
+    {
+      "text": "Warn against poor purchase",
+      "label": 0.0
+    },
+    {
+      "text": "Five stars absolutely amazing",
+      "label": 1.0
+    },
+    {
+      "text": "Top rated excellent product",
+      "label": 1.0
+    },
+    {
+      "text": "Premium quality wonderful purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Superior design love it",
+      "label": 1.0
+    },
+    {
+      "text": "Outstanding quality great product",
+      "label": 1.0
+    },
+    {
+      "text": "Exceptional service perfect experience",
+      "label": 1.0
+    },
+    {
+      "text": "First class fantastic quality",
+      "label": 1.0
+    },
+    {
+      "text": "High quality best purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Professional grade excellent product",
+      "label": 1.0
+    },
+    {
+      "text": "Top tier amazing quality",
+      "label": 1.0
+    },
+    {
+      "text": "One star absolutely terrible",
+      "label": 0.0
+    },
+    {
+      "text": "Bottom rated awful product",
+      "label": 0.0
+    },
+    {
+      "text": "Low quality horrible purchase",
+      "label": 0.0
+    },
+    {
+      "text": "Inferior design hate it",
+      "label": 0.0
+    },
+    {
+      "text": "Substandard quality bad product",
+      "label": 0.0
+    },
+    {
+      "text": "Poor service disappointing experience",
+      "label": 0.0
+    },
+    {
+      "text": "Low grade terrible quality",
+      "label": 0.0
+    },
+    {
+      "text": "Cheap quality worst purchase",
+      "label": 0.0
+    },
+    {
+      "text": "Amateur grade poor product",
+      "label": 0.0
+    },
+    {
+      "text": "Bottom tier disgusting quality",
+      "label": 0.0
+    },
+    {
+      "text": "Impressed with the great quality",
+      "label": 1.0
+    },
+    {
+      "text": "Delighted with excellent purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Thrilled with wonderful product",
+      "label": 1.0
+    },
+    {
+      "text": "Satisfied with amazing quality",
+      "label": 1.0
+    },
+    {
+      "text": "Pleased with perfect product",
+      "label": 1.0
+    },
+    {
+      "text": "Content with fantastic purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Elated with beautiful quality",
+      "label": 1.0
+    },
+    {
+      "text": "Overjoyed with best product",
+      "label": 1.0
+    },
+    {
+      "text": "Excited about excellent purchase",
+      "label": 1.0
+    },
+    {
+      "text": "Enthusiastic about great quality",
+      "label": 1.0
+    },
+    {
+      "text": "Unimpressed with terrible quality",
+      "label": 0.0
+    },
+    {
+      "text": "Dismayed with awful purchase",
+      "label": 0.0
+    },
+    {
+      "text": "Frustrated with horrible product",
+      "label": 0.0
+    },
+    {
+      "text": "Dissatisfied with poor quality",
+      "label": 0.0
+    },
+    {
+      "text": "Displeased with bad product",
+      "label": 0.0
+    },
+    {
+      "text": "Discontent with disappointing purchase",
+      "label": 0.0
+    },
+    {
+      "text": "Upset with ugly quality",
+      "label": 0.0
+    },
+    {
+      "text": "Annoyed with worst product",
+      "label": 0.0
+    },
+    {
+      "text": "Irritated about terrible purchase",
+      "label": 0.0
+    },
+    {
+      "text": "Bothered about poor quality",
+      "label": 0.0
+    }
+  ]
+}
