@@ -1,0 +1,15 @@
+# Compiled object files
+*.o
+
+# Compiled executables
+xor_example
+regression_example
+sentiment_example
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# OS files
+.DS_Store
