@@ -1,0 +1,16 @@
+// Test 9: Fibonacci sequence
+int fibonacci(int n) {
+    if (n <= 1) {
+        return n;
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+int main() {
+    printf("Fibonacci sequence:\n");
+    for (int i = 0; i < 10; i = i + 1) {
+        printf("%d ", fibonacci(i));
+    }
+    printf("\n");
+    return 0;
+}

@@ -1,0 +1,25 @@
+// Test 7: Boolean operations
+int main() {
+    bool a = true;
+    bool b = false;
+
+    if (a && b) {
+        printf("a AND b is true\n");
+    } else {
+        printf("a AND b is false\n");
+    }
+
+    if (a || b) {
+        printf("a OR b is true\n");
+    } else {
+        printf("a OR b is false\n");
+    }
+
+    if (!a) {
+        printf("NOT a is true\n");
+    } else {
+        printf("NOT a is false\n");
+    }
+
+    return 0;
+}

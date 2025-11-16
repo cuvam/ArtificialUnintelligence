@@ -1,0 +1,14 @@
+// Test 5: Arrays
+int main() {
+    int[] numbers = [1, 2, 3, 4, 5];
+
+    printf("Array elements: ");
+    for (int i = 0; i < numbers.length; i = i + 1) {
+        printf("%d ", numbers[i]);
+    }
+    printf("\n");
+
+    printf("Array length: %d\n", numbers.length);
+
+    return 0;
+}

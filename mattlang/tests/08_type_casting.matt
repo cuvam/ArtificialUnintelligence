@@ -1,0 +1,16 @@
+// Test 8: Type casting
+int main() {
+    int x = 5;
+    float y = (float)x;
+
+    printf("x (int): %d\n", x);
+    printf("y (float): %g\n", y);
+
+    float pi = 3.14159;
+    int pi_int = (int)pi;
+
+    printf("pi (float): %g\n", pi);
+    printf("pi_int (int): %d\n", pi_int);
+
+    return 0;
+}
