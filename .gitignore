@@ -65,3 +65,4 @@ ML/adder_example
 
 # Compression executables
 compression/lzw
+compression/deflate
