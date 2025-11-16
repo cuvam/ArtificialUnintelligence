@@ -62,3 +62,6 @@ ML/xor_example
 ML/regression_example
 ML/sentiment_example
 ML/adder_example
+
+# Compression executables
+compression/lzw
