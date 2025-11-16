@@ -24,8 +24,8 @@ TEST_DIR="/tmp/lzw_tests_$$"
 
 # Compile the LZW program if needed
 if [ ! -f "$LZW_BINARY" ]; then
-    echo -e "${YELLOW}Compiling LZW compression program...${NC}"
-    gcc -o "$LZW_BINARY" "$SCRIPT_DIR/lzw.c" -Wall
+    echo -e "${YELLOW}Compiling LZW compression program with optimizations...${NC}"
+    gcc -o "$LZW_BINARY" "$SCRIPT_DIR/lzw.c" -Wall -O3 -march=native -ffast-math
     echo -e "${GREEN}Compilation successful!${NC}\n"
 fi
 
