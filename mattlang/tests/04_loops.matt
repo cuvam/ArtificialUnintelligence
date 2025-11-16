@@ -1,0 +1,18 @@
+// Test 4: Loops (for and while)
+int main() {
+    printf("For loop:\n");
+    for (int i = 0; i < 5; i = i + 1) {
+        printf("%d ", i);
+    }
+    printf("\n");
+
+    printf("While loop:\n");
+    int j = 0;
+    while (j < 5) {
+        printf("%d ", j);
+        j = j + 1;
+    }
+    printf("\n");
+
+    return 0;
+}
